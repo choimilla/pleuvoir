@@ -1,0 +1,261 @@
+span {
+    display:block;
+}
+
+.slickWrap{
+    position: relative;
+    float:left;
+    width:45%;
+    margin-left:45px;
+    height:auto;
+    overflow:hidden;
+    /* background-color: rgb(180, 109, 16); */
+}
+    .customDot {
+        position:relative;
+        clear:both;
+        /* background-color: aqua; */
+        width:100%;
+        height:40px;
+
+        display:flex;
+        flex-flow:row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .selectBarL, .selectBarR{
+            position:relative;
+            float:left;
+            margin-right:2px;
+            width:24px;
+            height: 2px;
+            background-color:#222;
+        }
+
+        /* .selectBarR{
+            background-color:#999;
+        } */
+
+        .selectBarL.off{
+            background-color:#999;
+        }
+
+        .selectBarR.off{
+            background-color:#999;
+        }
+
+.iconLeft{
+    position:absolute;
+    top:55%;
+    left:2%;
+    width:20px;
+    cursor: pointer;
+}
+
+.iconRight{
+    position:absolute;
+    top:55%;
+    right:2%;
+    width:20px;
+    cursor: pointer;
+}
+
+.pr_slick_list {
+    position: relative;
+    float:left;
+    width:100%;
+    padding-top:105px;
+    transition:all 1s;
+
+    display:flex;
+    flex-flow:row nowrap;
+}
+
+.pr_slick_list.next{
+    transform: translateX(-100%);
+}
+
+.detail_right_infoArea {
+    position:relative;
+    float: left;
+    width:45%;
+    /* background-color: aqua; */
+    border-bottom:solid 1px #757575;
+
+    padding-top:105px;
+    padding-left:45px;
+    padding-bottom:25px;
+
+    display:flex;
+    flex-flow: column wrap;
+}
+
+    #giftbox {
+        background-color: #080808;
+        color:#ffffff;
+        width:60px;
+        text-align: right;
+        padding: 8px 4px 8px 0px;
+        border-radius: 4px;
+        font-size:12px;
+
+        background-image: url(./images/9133526_giftbox_gift_present_icon.png);
+        background-size: 13px;
+        background-position: 5px center;
+        background-repeat: no-repeat;
+    }
+
+    #pr_title {
+        padding: 7px 0px 15px;
+        /* background-color: pink; */
+        width:280px;
+        font-size:1em;
+    }
+
+    #pr_price_ko {
+        margin-bottom : 30px;
+        font-size:0.8em;
+        /* background-color: beige; */
+    }
+
+    ul.tabs{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+    
+    ul.tabs li{
+      display: inline-block;
+        /* background: #898989; */
+        /* color: white; */
+        /* padding: 10px 15px; */
+        font-size:0.8em;
+        font-weight:bold;
+        margin-right: 15px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+    
+    ul.tabs li.current{
+        /* background: #e0e0e0; */
+        color: #222;
+        font-weight:bold;
+        text-decoration: underline;
+    }
+    
+    .tab-content{
+        display: none;
+        font-size:0.85em;
+    }
+
+        #tab-1 > h1,#tab-2 > h1,#tab-3 > h1 {
+            margin-bottom:20px;
+        }
+
+        #tab-1 > p,#tab-2 > p,#tab-3 > p {
+            margin-bottom:20px;
+            font-weight: 400px;
+            font-size: 0.85em;
+            line-height: 1.5;
+        }
+    
+    .tab-content.current{
+        display: inherit;
+    }
+
+    .line{
+        border-top:solid 1px #ccc;
+        height:10px;
+    }
+
+    .productOption>form>label{
+        font-size:0.85em;
+        font-family:sans-serif;
+    }
+
+    #opt {
+        width:100%;
+        height: 32px;
+        color:#353535;
+        appearance: none;
+        background: url(./icon/211614_down_b_arrow_icon.png) no-repeat;
+        background-size: 16px;
+        background-position: 98% center;
+        padding: 0 .5em;  /* 여백과 높이 결정 */
+    }
+
+    select option{
+        margin-left:10px;
+    }
+
+    .informationWrap{
+        margin-top:20px;
+        background-color: #fff;
+        border: 1px solid #757575;
+    }
+
+    .mentwrap > p{
+        font-size:0.9em;
+        color:#353535;
+        font-weight:bold;
+        background-color: #fafafb;
+        border-bottom: 1px solid #757575;
+    }
+
+        .information{
+            padding-top:20px;
+            padding-left:20px;
+            display:flex;
+            flex-flow:row wrap;
+        }
+
+        .optionwrap{
+            display:flex;
+            flex-flow:column wrap;
+            margin: 0 20px;
+            /* font-size:0.8em; */
+        }
+
+        .optionwrap > p{
+            font-size:0.8em;
+            font-weight:bold;
+        }
+
+
+        .mentwrap >p > span{
+            font-weight:400;
+            color:#757575;
+            /* background-color: beige; */
+        }
+
+        .shoppingbag_option>form>label{
+            font-size:0.85em;
+            font-family:sans-serif;
+        }
+
+        #opt_s {
+            width:250%;
+            height:32px;
+            color:#353535;
+            appearance: none;
+            background: url(./icon/211614_down_b_arrow_icon.png) no-repeat;
+            background-size: 16px;
+            background-position: 98% center;
+            padding: 0 .5em;  /* 여백과 높이 결정 */
+            margin-top:10px;
+            margin-bottom:10px;
+        }
+
+    
+
+
+
+
+
+
+
+
+    
+
+

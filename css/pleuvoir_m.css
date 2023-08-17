@@ -1,0 +1,148 @@
+@media(max-width:800px){
+
+    .pc_all{
+        width:100vw;
+    }
+
+        .header {
+            height:80px;
+        }
+
+            .menubar {
+                justify-content: space-between;
+                height:50px;
+                /* background-color: aqua; */
+            }
+
+                .menubar > div:first-child{
+                    display: block;
+                }
+
+                .menu_box1 a {
+                    display:none;
+                }
+
+                .menu_box1 a:first-child{
+                    display: block;
+
+                    position: relative;
+                    float: left;
+                }
+
+                .menu_box2 a {
+                    display:none;
+                }
+
+                    .menu_box2 a:nth-child(3) {
+                        display: block;
+                    }
+
+                .main_video > video:first-child {
+                display: none;
+                }
+
+                .main_video > video:nth-child(2) {
+                    display: block;
+                }
+
+            .main_img {
+                width:100%;
+                height:auto;
+            }
+
+                .main_img > img:first-child{
+                    display:none;
+                }
+
+                .main_img > img:nth-child(2) {
+                    display: block;
+                }
+
+                .main_img > p {
+                    font-size:17px;
+                }
+
+                .main_img > p > a {
+                    font-size:17px;
+                }
+
+
+        .product_list {
+            flex-flow:row wrap;
+        }
+
+        .product_box{
+            width:45%;
+        }
+
+    /* PC 마지막 섹션 */
+    .section_sec_wrap{
+        display:none;
+    }
+
+    .m_section_sec_wrap {
+        position:relative;
+        clear:both;
+        width:100%;
+        height:auto;
+        margin-top:50px;
+
+        display:flex;
+        flex-flow: column wrap;
+    }
+
+    .m_text_wrap{
+        position:relative;
+        float:left;
+        width:100%;
+        height:auto;
+        padding:30% 0;
+
+        display:flex;
+        flex-flow:column nowrap;
+        align-items: center;
+        justify-content:center;
+        color:#fff;
+        background-color:#000;
+        
+        font-size:15px;
+    }
+
+        .m_text_wrap h2{
+            font-size:30px;
+            margin-bottom:15px;
+        }
+
+        .m_text_wrap a{
+            margin-top:15px;
+            font-size:15px;
+            color:#fff;
+        }
+
+    .m_img_wrap{
+        width:100%;
+        height: auto;
+        margin-bottom:-4px;
+
+        /* background-color: aqua; */
+    }
+
+        .m_img_wrap > img {
+            width:100%;
+            height: auto;
+        }
+
+
+
+
+
+        
+
+    
+
+        
+
+
+
+
+}
